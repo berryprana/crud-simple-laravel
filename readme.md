@@ -1,3 +1,5 @@
+![Intro](https://github.com/berryprana/crud-simple-laravel/blob/master/public/index.png)
+
 # Simple CRUD
 > Memulai dari awal untuk membuat crud yang sangat sederhana
 
