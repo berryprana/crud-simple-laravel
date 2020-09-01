@@ -1,49 +1,35 @@
 # Project Name
-> Here goes your awesome project description!
+> Memulai dari awal untuk membuat crud yang sangat sederhana
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Framework Laravel mempunyai beberapa persyaratan sistem
+untuk melihat lebih lengkap kunjungi [laravel docs](https://laravel.com/docs/7.x)
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+* PHP >= 7.2.5
+* BCMath PHP Extension
+* Ctype PHP Extension
+* Fileinfo PHP extension
+* JSON PHP Extension
+* Mbstring PHP Extension
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+## Lets Start
+1. Silahkan teman-teman jalankan perintah dibawah ini untuk menginstall Framework Laravel.
+`composer create-project —prefer-dist laravel/laravel namaproject`
+2. Buat database baru dan ganti nama database di .env
+`DB_DATABASE=namadatabase`
+3. Buat table di migration,sebagai contoh kita membuat table mahasiswa.
+`php artisan make:migration create_mahasiswa_table`
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
