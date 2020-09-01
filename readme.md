@@ -18,7 +18,7 @@ untuk melihat lebih lengkap kunjungi [laravel docs](https://laravel.com/docs/7.x
 
 ## Lets Start
 1. Silahkan teman-teman jalankan perintah dibawah ini untuk menginstall Framework Laravel.
-- `composer create-project —prefer-dist laravel/laravel namaproject`
+- `composer create-project —-prefer-dist laravel/laravel namaproject`
 2. Buat database baru dan ganti nama database di .env
 - `DB_DATABASE=namadatabase`
 3. Buat table sebagai contoh kita membuat table dengan nama Siswa.
