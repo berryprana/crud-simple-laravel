@@ -1,4 +1,4 @@
-# Project Name
+# Simple CRUD
 > Memulai dari awal untuk membuat crud yang sangat sederhana
 
 ## Setup
